@@ -1,0 +1,9 @@
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-syntax-highlighting
+ohmyzsh/ohmyzsh
+
+ohmyzsh/ohmyzsh path:plugins/brew
+ohmyzsh/ohmyzsh path:plugins/docker
+ohmyzsh/ohmyzsh path:plugins/docker-compose
+ohmyzsh/ohmyzsh path:plugins/git
+ohmyzsh/ohmyzsh path:plugins/kubectl
