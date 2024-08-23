@@ -12,7 +12,10 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 
-alias cat='bat'
+alias cat="bat"
+alias ls="eza --icons=always"
+alias cd="z"
+alias zshrc="nvim ~/.zshrc"
 alias du="ncdu --color dark -rr -x --exclude .git --exclude node_modules --exclude .cocoapods"
 alias weather="curl wttr.in"
 alias py=python3
