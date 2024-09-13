@@ -19,6 +19,7 @@ alias zshrc="nvim ~/.zshrc"
 alias du="ncdu --color dark -rr -x --exclude .git --exclude node_modules --exclude .cocoapods"
 alias weather="curl wttr.in"
 alias py=python3
+alias drmd='docker rmi $(docker images --filter "dangling=true" -q --no-trunc)'
 
 export PATH="/usr/local/sbin:$PATH"
 
