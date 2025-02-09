@@ -48,9 +48,6 @@ export PATH=$PATH:$GOBIN
 eval "$(zoxide init zsh)"
 alias zz="z -"
 
-# asdf
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
-
 # bun
 [ -s "~/.bun/_bun" ] && source "~/.bun/_bun"
 export BUN_INSTALL="$HOME/.bun"
