@@ -3,3 +3,4 @@
 -- Add any additional options here
 
 vim.o.mousescroll = "ver:1,hor:6"
+vim.opt.wrap = true

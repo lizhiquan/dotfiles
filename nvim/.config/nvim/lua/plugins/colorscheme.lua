@@ -18,21 +18,17 @@ return {
           ["@lsp.type.function"] = { italic = true },
         }
       end,
-
-      background = {
-        light = "latte",
-        dark = "mocha",
-      },
-      transparent_background = false,
-      dim_inactive = {
-        enabled = false,
-      },
       styles = {
         comments = { "italic" },
         conditionals = { "bold" },
         keywords = { "bold" },
         functions = { "bold" },
         types = { "bold" },
+      },
+      color_overrides = {
+        latte = {
+          surface1 = "#d3d6de",
+        },
       },
     },
   },
